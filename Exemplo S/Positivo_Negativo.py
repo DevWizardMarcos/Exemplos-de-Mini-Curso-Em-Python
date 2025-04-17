@@ -1,7 +1,7 @@
 numero = int(input('Digite um numero : '))
-if numero > 0 : 
-    print('esse numero é positivo ')
-elif numero == 0 :
-    print('numero neutro ')
+if  numero % 2 != 0:     
+    print('Esse número é positivo.')
+elif numero == 0:
+    print('Número neutro.')
 else:
-    print('esse é numero é negativo ')
+    print('Esse número é negativo).')
