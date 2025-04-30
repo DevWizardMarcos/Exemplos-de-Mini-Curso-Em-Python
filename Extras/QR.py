@@ -1,7 +1,10 @@
 import qrcode
 
-qrcode.make("").save("")
-print("")
+qrcode.make("").save("seraquevai.png")
+print("qrcode salvo")
+
+
+
 
 
 # pip install qrcode[pil]----
